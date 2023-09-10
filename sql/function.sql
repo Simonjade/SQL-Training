@@ -61,3 +61,10 @@ END IF;
 
 END;
 $$ LANGUAGE plpgsql
+
+-- fonction pour trouver un nom de famille qui contient le param de la fonction
+CREATE FUNCTION get_family(t text) RETURNS SETOF text AS $$
+select distinct lastname as "nom de famille" from person
+where lastname ~* ('^.*' || t || '.*$')
+order by lastname
+$$ LANGUAGE SQL

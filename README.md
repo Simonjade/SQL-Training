@@ -2,7 +2,7 @@
 
 ## Explications
 
-Ce training SQL a été réalisé lors de ma formation à O'Clock. Il a nécéssité d'importer une base de données via un backup (fichier invisible pour ce repo public). Dans le dossier script, vous trouverez des exemples de requêtes SQL/views/function/regex réalisées pour m'entrainer et perfectionner ma maîtrise du SQL
+Ce training SQL a été réalisé lors de ma formation à O'Clock au début de mon mois de spécialité. Il a nécéssité d'importer une base de données via un backup (fichier invisible pour ce repo public). Dans le dossier sql, vous trouverez des exemples de requêtes SQL/views/function/regex réalisées pour m'entrainer et perfectionner ma maîtrise du SQL
 
 ## Structure de la BDD
 
